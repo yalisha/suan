@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="102 231 950 432" width="950" height="432">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="Canvas_1" stroke-opacity="1" stroke-dasharray="none" fill-opacity="1" stroke="none" fill="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="102" y="231" width="950" height="432"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="109.5" y="232" width="164" height="60.5" fill="white"/>
+        <rect x="109.5" y="232" width="164" height="60.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(114.5 251.25)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="34.576" y="17" xml:space="preserve">外生冲击(X)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="444" y="232" width="229" height="60.5" fill="white"/>
+        <rect x="444" y="232" width="229" height="60.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(449 240.25)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="55.236" y="17" xml:space="preserve">H1多样性（Y）</tspan>
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="59.65686" y="39" xml:space="preserve">(总体多样性</tspan>
+          <tspan font-family="Lucida Grande" font-size="14" fill="black" y="39" xml:space="preserve">↑</tspan>
+          <tspan font-family="PingFang SC" font-size="16" fill="black" y="39" xml:space="preserve">)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <rect x="103.5" y="366.8711" width="175.5" height="60.5" fill="white"/>
+        <rect x="103.5" y="366.8711" width="175.5" height="60.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(108.5 364.1211)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="18.894" y="17" xml:space="preserve">H2质量分化（Y）</tspan>
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="2.75" y="39" xml:space="preserve">（社会类热搜非官媒标</tspan>
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="42.75" y="61" xml:space="preserve">题党下降）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <rect x="444" y="366.8711" width="229" height="60.5" fill="white"/>
+        <rect x="444" y="366.8711" width="229" height="60.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(449 364.1211)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="58.94" y="17" xml:space="preserve">H3注意力转移</tspan>
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="5.5" y="39" xml:space="preserve">（社会类热搜注意力下降，娱</tspan>
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="29.5" y="61" xml:space="preserve">乐类热搜注意力上升）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="813.3203" y="366.8711" width="238.1797" height="60.5" fill="white"/>
+        <rect x="813.3203" y="366.8711" width="238.1797" height="60.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(818.3203 363.95312)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="103.52984" y="17" xml:space="preserve">H4</tspan>
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="14.089844" y="39" xml:space="preserve">（娱乐类词条平均上榜时间</tspan>
+          <tspan font-family="Apple Symbols" font-size="16" fill="black" y="39" xml:space="preserve">￬</tspan>
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="18.089844" y="61.33594" xml:space="preserve">社会类词条平均上榜时间）</tspan>
+        </text>
+      </g>
+      <g id="Line_7">
+        <line x1="273.5" y1="262.25" x2="434.1" y2="262.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_8">
+        <line x1="191.44393" y1="292.5" x2="191.32442" y2="356.9711" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_9">
+        <line x1="279" y1="397.1211" x2="434.1" y2="397.1211" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_10">
+        <line x1="673" y1="397.1211" x2="803.4203" y2="397.1211" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_11">
+        <line x1="558.5" y1="366.8711" x2="558.5" y2="302.4" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_13">
+        <rect x="295.73747" y="246.25" width="94.528" height="32" fill="white"/>
+        <text transform="translate(300.73747 251.25)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="0" y="17" xml:space="preserve">M1强制干预</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <rect x="102.52925" y="308.1549" width="177.712" height="32" fill="white"/>
+        <text transform="translate(107.52925 313.1549)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="0" y="17" xml:space="preserve">M2平台治理成本不对称</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <rect x="278.7988" y="381.1211" width="138" height="32" fill="white"/>
+        <text transform="translate(283.7988 386.1211)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="0" y="17" xml:space="preserve">用户注意力再配置</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16">
+        <rect x="513.5" y="310.0593" width="90" height="32" fill="white"/>
+        <text transform="translate(518.5 315.0593)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="0" y="17" xml:space="preserve">结构性熵增</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <rect x="675.4459" y="381.1211" width="122" height="32" fill="white"/>
+        <text transform="translate(680.4459 386.1211)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" fill="black" x="0" y="17" xml:space="preserve">用户注意力稀释</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18">
+        <text transform="translate(107.52926 481.0781)" fill="#111">
+          <tspan font-family="Helvetica Neue" font-weight="bold" font-size="14" fill="#111" x="0" y="22" xml:space="preserve">H₁ </tspan>
+          <tspan font-family="PingFang SC" font-weight="bold" font-size="14" fill="#111" y="22" xml:space="preserve">实证结果：</tspan>
+          <tspan font-family=".SF NS" font-size="14" fill="#111" y="22" xml:space="preserve"> ITS</tspan>
+          <tspan font-family="PingFang SC" font-size="14" fill="#111" y="22" xml:space="preserve">，总体多样性显著增强。</tspan>
+          <tspan font-family="Helvetica Neue" font-weight="bold" font-size="14" fill="#111" x="0" y="71.95" xml:space="preserve">H₂ </tspan>
+          <tspan font-family="PingFang SC" font-weight="bold" font-size="14" fill="#111" y="71.95" xml:space="preserve">实证结果：</tspan>
+          <tspan font-family=".SF NS" font-size="14" fill="#111" y="71.95" xml:space="preserve"> DID</tspan>
+          <tspan font-family="PingFang SC" font-size="14" fill="#111" y="71.95" xml:space="preserve">，社会类未显著，非官方显著减少。</tspan>
+          <tspan font-family="Helvetica Neue" font-weight="bold" font-size="14" fill="#111" x="0" y="121.9" xml:space="preserve">H₃ </tspan>
+          <tspan font-family="PingFang SC" font-weight="bold" font-size="14" fill="#111" y="121.9" xml:space="preserve">实证结果：</tspan>
+          <tspan font-family=".SF NS" font-size="14" fill="#111" y="121.9" xml:space="preserve"> ITS</tspan>
+          <tspan font-family="PingFang SC" font-size="14" fill="#111" y="121.9" xml:space="preserve">，社会类</tspan>
+          <tspan font-family=".SF NS" font-size="14" fill="#111" y="121.9" xml:space="preserve">↓</tspan>
+          <tspan font-family="PingFang SC" font-size="14" fill="#111" y="121.9" xml:space="preserve">，娱乐类</tspan>
+          <tspan font-family=".SF NS" font-size="14" fill="#111" y="121.9" xml:space="preserve">↑</tspan>
+          <tspan font-family="PingFang SC" font-size="14" fill="#111" y="121.9" xml:space="preserve">（热度）。</tspan>
+          <tspan font-family="Helvetica Neue" font-weight="bold" font-size="14" fill="#111" x="0" y="171.85" xml:space="preserve">H₄ </tspan>
+          <tspan font-family="PingFang SC" font-weight="bold" font-size="14" fill="#111" y="171.85" xml:space="preserve">实证结果：</tspan>
+          <tspan font-family=".SF NS" font-size="14" fill="#111" y="171.85" xml:space="preserve"> ITS</tspan>
+          <tspan font-family="PingFang SC" font-size="14" fill="#111" y="171.85" xml:space="preserve">，娱乐类话题平均时长</tspan>
+          <tspan font-family=".SF NS" font-size="14" fill="#111" y="171.85" xml:space="preserve">↓</tspan>
+          <tspan font-family="PingFang SC" font-size="14" fill="#111" y="171.85" xml:space="preserve">，社会类</tspan>
+          <tspan font-family=".SF NS" font-size="14" fill="#111" y="171.85" xml:space="preserve">↑</tspan>
+          <tspan font-family="PingFang SC" font-size="14" fill="#111" y="171.85" xml:space="preserve">，。</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

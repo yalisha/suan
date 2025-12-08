@@ -1,0 +1,184 @@
+<svg width="1200" height="850" viewBox="0 0 1200 850" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 滤镜：卡片阴影 -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 箭头定义 -->
+    <marker id="arrowHead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#546E7A"/>
+    </marker>
+    <marker id="arrowHeadRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+     <marker id="arrowHeadBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2980b9"/>
+    </marker>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+    .title { font-size: 28px; font-weight: bold; fill: #2c3e50; text-anchor: middle; }
+    .subtitle { font-size: 16px; fill: #7f8c8d; text-anchor: middle; }
+    .box-title { font-size: 18px; font-weight: bold; fill: #2c3e50; }
+    .box-content { font-size: 14px; fill: #34495e; }
+    .math-text { font-family: "Times New Roman", serif; font-style: italic; font-size: 15px; fill: #c0392b; }
+    .stage-label { font-size: 14px; font-weight: bold; fill: #95a5a6; letter-spacing: 2px; text-anchor: middle; }
+    .path-label { font-size: 12px; fill: #e74c3c; background-color: white; }
+  </style>
+
+  <!-- 背景层：划分三个阶段 -->
+  <rect x="50" y="80" width="250" height="700" fill="#f4f6f7" rx="15" />
+  <rect x="330" y="80" width="500" height="700" fill="#eaf2f8" rx="15" />
+  <rect x="860" y="80" width="300" height="700" fill="#f4f6f7" rx="15" />
+
+  <!-- 阶段标签 -->
+  <text x="175" y="110" class="stage-label">STAGE 1: 外部制度冲击</text>
+  <text x="580" y="110" class="stage-label">STAGE 2: 算法资源编排机制</text>
+  <text x="1010" y="110" class="stage-label">STAGE 3: 生态重构结果</text>
+
+  <!-- 主标题 -->
+  <text x="600" y="40" class="title">微博热搜榜算法治理：机制传导与生态演化框架</text>
+  <text x="600" y="65" class="subtitle">Algorithm Governance: Mechanism Transmission &amp; Ecological Evolution</text>
+
+  <!-- ==================== STAGE 1: 外部冲击 ==================== -->
+  
+  <g transform="translate(75, 350)" filter="url(#dropShadow)">
+    <rect width="200" height="120" rx="8" fill="#ffffff" stroke="#2c3e50" stroke-width="2"/>
+    <rect width="200" height="30" rx="8" fill="#2c3e50"/> <!-- Header -->
+    <text x="100" y="20" fill="white" text-anchor="middle" font-weight="bold" font-size="14">政策冲击 (Policy Shock)</text>
+    
+    <text x="100" y="55" class="box-title" text-anchor="middle" font-size="16">算法推荐治理行动</text>
+    <text x="100" y="80" class="box-content" text-anchor="middle">《治理清单》 (2024.11)</text>
+    <text x="100" y="100" class="box-content" text-anchor="middle" fill="#7f8c8d" font-size="12">多样性 / 质量 / 透明度</text>
+  </g>
+
+  <!-- ==================== STAGE 2: 核心机制 ==================== -->
+
+  <!-- 机制 1: 多样性约束 -->
+  <g transform="translate(380, 150)" filter="url(#dropShadow)">
+    <rect width="400" height="140" rx="8" fill="#ffffff" stroke="#2980b9" stroke-width="2"/>
+    <path d="M0,8 a8,8 0 0 1 8,-8 h384 a8,8 0 0 1 8,8 v22 h-400 z" fill="#2980b9"/>
+    <text x="15" y="20" fill="white" font-weight="bold" font-size="14">机制 I : 多样性硬约束 (Diversity Constraint)</text>
+    
+    <!-- 内容 -->
+    <text x="20" y="55" class="box-title">内容去重 &amp; 打散干预</text>
+    <text x="20" y="80" class="box-content">• 压缩头部话题 "瞬时可见性" (Top-k Cap)</text>
+    <text x="20" y="100" class="box-content">• 预留 10-15% 榜单位置给长尾内容</text>
+    <text x="380" y="125" class="math-text" text-anchor="end">D ≥ D_min (Shannon Entropy ↑)</text>
+  </g>
+
+  <!-- 机制 2: 成本分化 -->
+  <g transform="translate(380, 340)" filter="url(#dropShadow)">
+    <rect width="400" height="160" rx="8" fill="#ffffff" stroke="#e74c3c" stroke-width="2"/>
+    <path d="M0,8 a8,8 0 0 1 8,-8 h384 a8,8 0 0 1 8,8 v22 h-400 z" fill="#e74c3c"/>
+    <text x="15" y="20" fill="white" font-weight="bold" font-size="14">机制 II : 质量-成本分化 (Cost Differentiation)</text>
+    
+    <!-- 内容 -->
+    <text x="20" y="55" class="box-title">风险分级监管 (Risk-based Reg)</text>
+    <text x="20" y="80" class="box-content">• 社会类：三级审核 + 留痕 = 成本激增</text>
+    <text x="20" y="100" class="box-content">• 娱乐类：AI识别 + 抽检 = 成本稳定</text>
+    
+    <line x1="20" y1="115" x2="380" y2="115" stroke="#eee" stroke-width="1"/>
+    <text x="380" y="140" class="math-text" text-anchor="end">ΔC_Social &gt;&gt; ΔC_Entertainment ≈ 0</text>
+  </g>
+
+  <!-- 机制 3: 资源重分配 -->
+  <g transform="translate(380, 550)" filter="url(#dropShadow)">
+    <rect width="400" height="140" rx="8" fill="#ffffff" stroke="#27ae60" stroke-width="2"/>
+    <path d="M0,8 a8,8 0 0 1 8,-8 h384 a8,8 0 0 1 8,8 v22 h-400 z" fill="#27ae60"/>
+    <text x="15" y="20" fill="white" font-weight="bold" font-size="14">机制 III : 注意力重新分配 (Reallocation)</text>
+    
+    <!-- 内容 -->
+    <text x="20" y="55" class="box-title">零和博弈下的边际收益均等化</text>
+    <text x="20" y="80" class="box-content">• 社会类净收益下降 (MNR ↓) → 减少供给</text>
+    <text x="20" y="100" class="box-content">• 娱乐类净收益相对优势 → 承接溢出流量</text>
+    <text x="380" y="125" class="math-text" text-anchor="end">MNR_Social = MNR_Entertainment</text>
+  </g>
+
+  <!-- ==================== STAGE 3: 结果 ==================== -->
+
+  <!-- 结果 H1 -->
+  <g transform="translate(880, 150)" filter="url(#dropShadow)">
+    <rect width="260" height="80" rx="8" fill="#fff" stroke="#2980b9" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="20" y="30" class="box-title" font-size="16">H1: 多样性显著提升</text>
+    <text x="20" y="55" class="box-content">Shannon ↑, HHI ↓</text>
+    <text x="240" y="65" font-size="20" text-anchor="end">✅</text>
+  </g>
+
+  <!-- 结果 H2a -->
+  <g transform="translate(880, 330)" filter="url(#dropShadow)">
+    <rect width="260" height="80" rx="8" fill="#fff" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="20" y="30" class="box-title" font-size="16">H2a: 社会类质量提升</text>
+    <text x="20" y="55" class="box-content">"标题党"显著减少</text>
+    <text x="240" y="65" font-size="20" text-anchor="end">✅</text>
+  </g>
+
+  <!-- 结果 H2b -->
+  <g transform="translate(880, 420)" filter="url(#dropShadow)">
+    <rect width="260" height="80" rx="8" fill="#fff" stroke="#95a5a6" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="20" y="30" class="box-title" font-size="16" fill="#7f8c8d">H2b: 娱乐类质量不变</text>
+    <text x="20" y="55" class="box-content">结构无显著突变</text>
+    <text x="240" y="65" font-size="20" text-anchor="end">⚪</text>
+  </g>
+
+  <!-- 结果 H3a -->
+  <g transform="translate(880, 550)" filter="url(#dropShadow)">
+    <rect width="260" height="80" rx="8" fill="#fff" stroke="#27ae60" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="20" y="30" class="box-title" font-size="16">H3a: 社会类流量下降</text>
+    <text x="20" y="55" class="box-content">Level ↓, Slope ↓</text>
+    <text x="240" y="65" font-size="20" text-anchor="end">✅</text>
+  </g>
+
+  <!-- 结果 H3b -->
+  <g transform="translate(880, 640)" filter="url(#dropShadow)">
+    <rect width="260" height="80" rx="8" fill="#fff" stroke="#27ae60" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="20" y="30" class="box-title" font-size="16">H3b: 娱乐类短期爆发</text>
+    <text x="20" y="55" class="box-content">Level ↑, Slope ↓ (倒U型)</text>
+    <text x="240" y="65" font-size="20" text-anchor="end">⚠️</text>
+  </g>
+
+  <!-- ==================== 连接线 (Connections) ==================== -->
+
+  <!-- Shock -> Mech 1 -->
+  <path d="M275 410 C320 410, 320 220, 370 220" fill="none" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowHead)"/>
+  
+  <!-- Shock -> Mech 2 -->
+  <path d="M275 410 C320 410, 320 420, 370 420" fill="none" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowHead)"/>
+  
+  <!-- Shock -> Mech 3 -->
+  <path d="M275 410 C320 410, 320 620, 370 620" fill="none" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowHead)"/>
+
+  <!-- Mech 1 -> H1 -->
+  <path d="M780 220 L870 190" fill="none" stroke="#2980b9" stroke-width="2" marker-end="url(#arrowHeadBlue)"/>
+  
+  <!-- Mech 2 -> H2a -->
+  <path d="M780 420 C810 420, 840 370, 870 370" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowHeadRed)"/>
+  
+  <!-- Mech 2 -> H2b -->
+  <path d="M780 420 C810 420, 840 460, 870 460" fill="none" stroke="#95a5a6" stroke-width="2" marker-end="url(#arrowHead)"/>
+
+  <!-- Mech 2 -> Mech 3 (Cost impacts Allocation) -->
+  <path d="M580 500 L580 540" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowHeadRed)"/>
+  <text x="590" y="530" font-size="12" fill="#e74c3c">成本驱动</text>
+
+  <!-- Mech 1 -> Mech 3 (Diversity impacts Allocation) -->
+  <path d="M450 290 L450 540" fill="none" stroke="#2980b9" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowHeadBlue)"/>
+  <text x="380" y="320" font-size="12" fill="#2980b9" transform="rotate(-90 380,320)">头部空间压缩</text>
+
+  <!-- Mech 3 -> H3a -->
+  <path d="M780 620 C810 620, 840 590, 870 590" fill="none" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowHead)"/>
+  
+  <!-- Mech 3 -> H3b -->
+  <path d="M780 620 C810 620, 840 680, 870 680" fill="none" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowHead)"/>
+
+</svg>

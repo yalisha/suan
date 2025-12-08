@@ -1,0 +1,3 @@
+target,formula,interaction_term,coef,std_err,p_value,r_squared,n
+arousal_index,"arousal_index ~ C(period, Treatment(reference='pre')) * C(is_official, Treatment(reference=1))","C(period, Treatment(reference='pre'))[T.post]:C(is_official, Treatment(reference=1))[T.0]",0.005122766136478692,0.002344578560969344,0.02889548238616935,9.796616957347126e-05,99726
+information_gap,"information_gap ~ C(period, Treatment(reference='pre')) * C(is_official, Treatment(reference=1))","C(period, Treatment(reference='pre'))[T.post]:C(is_official, Treatment(reference=1))[T.0]",-0.020538972512662065,0.0023904856077183877,8.670057057958952e-18,0.0049260625072499176,99726

@@ -1,0 +1,18 @@
+rel_month,coef,ci_lower,ci_upper,p_value,is_reference,formula
+-8,0.0024642149847238556,-0.011949026126658662,0.016877456096106372,0.7375523728883842,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+-7,0.0023407781531227727,-0.012541154707842722,0.017222711014088267,0.7578647473599955,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+-6,0.0031707839001934566,-0.011193446720578338,0.01753501452096525,0.6652688533850654,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+-5,0.009913957971560038,-0.004045087662084015,0.023873003605204092,0.16391986244461543,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+-4,0.02458469003376634,0.01060968431301989,0.03855969575451279,0.0005650298321184845,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+-3,0.013821099782674453,-6.934682164850756e-06,0.02764913424751376,0.05011500074994615,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+-2,0.016634388633653074,0.0030519001048021667,0.030216877162503982,0.016379752186798147,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+-1,0.0,0.0,0.0,,True,
+0,0.002519994712144636,-0.01138500114650278,0.016424990570792053,0.7224344937976355,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+1,0.026379151664262402,0.012810605862981335,0.03994769746554347,0.00013878386270447336,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+2,0.006065970221096649,-0.008049486977154213,0.02018142741934751,0.3996302749740521,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+3,0.022761422967243636,0.008426103001287627,0.037096742933199645,0.0018585551499569132,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+4,0.01142453222108805,-0.0026490059538153247,0.025498070395991425,0.11159745565534931,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+5,0.011930192406890257,-0.002519022219089683,0.026379407032870197,0.10560292871748164,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+6,0.014938319148408829,0.0008360773604654172,0.02904056093635224,0.03787904276202451,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+7,0.013617496080035534,-0.0004153195218087255,0.027650311681879793,0.057176707037411144,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
+8,0.010496418822895958,-0.0036913962617897474,0.024684233907581662,0.14705114348354978,False,"arousal_index ~ C(rel_month_cat, Treatment(reference=-1)) * C(is_official, Treatment(reference=1))"
