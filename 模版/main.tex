@@ -1,0 +1,226 @@
+% 中文小论文 LaTeX 模版
+% 适用于学术期刊投稿 / 导师审阅
+\documentclass[12pt,a4paper]{article}
+
+%% ============================================
+%% 中文支持 (XeLaTeX 编译)
+%% ============================================
+\usepackage{ctex}  % 使用 ctex 宏包提供 \zihao 和 \heiti 等命令
+
+% 设置中文字体（ctex 已设置默认字体，可根据需要调整）
+% \setCJKmainfont[BoldFont={STHeiti}, ItalicFont={STKaiti}]{STSong}
+
+% 设置英文字体
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+
+%% ============================================
+%% 页面设置
+%% ============================================
+\usepackage[
+    a4paper,
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2.5cm,
+    right=2.5cm
+]{geometry}
+
+%% ============================================
+%% 行距设置
+%% ============================================
+\usepackage{setspace}
+\onehalfspacing  % 1.5倍行距
+
+%% ============================================
+%% 数学公式
+%% ============================================
+\usepackage{amsmath, amssymb, amsthm}
+
+%% ============================================
+%% 表格
+%% ============================================
+\usepackage{booktabs}      % 三线表
+\usepackage{longtable}     % 跨页表格
+\usepackage{array}         % 增强表格
+\usepackage{multirow}      % 合并行
+\usepackage{tabularx}      % 自动宽度表格
+\usepackage{threeparttable} % 表格注释
+
+% 表格中文字体设置（小一号楷体）
+\newcommand{\tabkai}{\zihao{-4}\kaishu}  % 表格中文使用小四号楷体
+% 表格变量斜体命令
+\newcommand{\var}[1]{\textit{#1}}
+
+%% ============================================
+%% 图形
+%% ============================================
+\usepackage{graphicx}
+\usepackage{float}         % 图表位置控制
+\usepackage{subcaption}    % 子图
+
+% 图表路径
+\graphicspath{{../实证结果/}{../}}
+
+%% ============================================
+%% 引用与参考文献
+%% ============================================
+\usepackage[sort&compress]{natbib}
+\bibliographystyle{apalike}
+
+% 引用格式调整
+\setcitestyle{aysep={,}, yysep={,}, notesep={: }}
+
+%% ============================================
+%% 超链接
+%% ============================================
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=blue,
+    bookmarksnumbered=true,
+    pdfstartview=FitH
+}
+
+%% ============================================
+%% 章节标题格式
+%% ============================================
+\usepackage{titlesec}
+
+% 一级标题：一、二、三...（黑体，四号，居中）
+\titleformat{\section}
+    {\centering\zihao{4}\heiti}
+    {\chinese{section}、}
+    {0em}
+    {}
+
+% 二级标题：（一）（二）（三）...（黑体，小四）
+\titleformat{\subsection}
+    {\zihao{-4}\heiti}
+    {（\chinese{subsection}）}
+    {0em}
+    {}
+
+% 三级标题：1. 2. 3...（宋体加粗，小四）
+\titleformat{\subsubsection}
+    {\zihao{-4}\bfseries}
+    {\arabic{subsubsection}.}
+    {0.5em}
+    {}
+
+% 标题间距调整
+\titlespacing*{\section}{0pt}{1.5ex plus 0.5ex minus 0.2ex}{1ex plus 0.2ex}
+\titlespacing*{\subsection}{0pt}{1ex plus 0.3ex minus 0.1ex}{0.5ex plus 0.1ex}
+\titlespacing*{\subsubsection}{0pt}{0.5ex plus 0.2ex}{0.3ex}
+
+%% ============================================
+%% 中文数字转换（重定义 ctex 已有的 \chinese 命令）
+%% ============================================
+\renewcommand{\chinese}[1]{%
+    \ifcase\value{#1}\or 一\or 二\or 三\or 四\or 五\or 六\or 七\or 八\or 九\or 十%
+    \or 十一\or 十二\or 十三\or 十四\or 十五\fi
+}
+
+%% ============================================
+%% 图表标题格式
+%% ============================================
+\usepackage{caption}
+\captionsetup{
+    font={small},
+    labelfont={bf},
+    labelsep=space,
+    justification=centering,
+    format=plain
+}
+\captionsetup[table]{position=top, skip=5pt}
+\captionsetup[figure]{position=bottom, skip=5pt}
+
+% 中文图表标题
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+
+%% ============================================
+%% 脚注格式
+%% ============================================
+\usepackage[perpage,symbol*]{footmisc}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+%% ============================================
+%% 其他工具包
+%% ============================================
+\usepackage{enumitem}      % 列表格式
+\setlist{noitemsep, topsep=0pt}  % 紧凑列表
+
+\usepackage{xcolor}        % 颜色支持
+\usepackage{url}           % URL格式
+
+%% ============================================
+%% 摘要环境重定义
+%% ============================================
+\renewenvironment{abstract}{%
+    \vspace{1em}
+    \noindent\textbf{摘\quad 要：}
+}{\par\vspace{1em}}
+
+% 英文摘要环境
+\newenvironment{abstractEN}{%
+    \vspace{1em}
+    \noindent\textbf{Abstract: }
+}{\par\vspace{1em}}
+
+%% ============================================
+%% 关键词命令
+%% ============================================
+\newcommand{\keywords}[1]{%
+    \noindent\textbf{关键词：}#1
+}
+
+\newcommand{\keywordsEN}[1]{%
+    \noindent\textbf{Keywords: }#1
+}
+
+%% ============================================
+%% 文档信息
+%% ============================================
+\title{%
+    \zihao{2}\heiti 算法治理对数字平台生态系统的重构效应\\[0.3em]
+    \zihao{3} ——基于微博热搜榜的准自然实验
+}
+\author{}
+\date{}
+
+%% ============================================
+%% 正文开始
+%% ============================================
+\begin{document}
+
+% 生成标题
+\maketitle
+\thispagestyle{empty}
+
+% 中文摘要
+\input{00_abstract_cn}
+
+\vspace{1em}
+
+% 英文摘要
+\input{00_abstract_en}
+
+\newpage
+\setcounter{page}{1}
+
+% 正文章节
+\input{01_introduction}
+\input{02_theory}
+\input{03_data}
+\input{04_empirical}
+\input{05_conclusion}
+
+% 参考文献
+\newpage
+\bibliography{../references}
+
+\end{document}

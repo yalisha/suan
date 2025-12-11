@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: apalike.bst
+Database file #1: ../references.bib
+Warning--empty journal in Leskovec2009
+You've used 24 entries,
+            1935 wiz_defined-function locations,
+            648 strings with 8114 characters,
+and the built_in function-call counts, 10310 in all, are:
+= -- 1040
+> -- 389
+< -- 15
++ -- 139
+- -- 127
+* -- 921
+:= -- 1746
+add.period$ -- 74
+call.type$ -- 24
+change.case$ -- 183
+chr.to.int$ -- 24
+cite$ -- 25
+duplicate$ -- 367
+empty$ -- 739
+format.name$ -- 171
+if$ -- 2018
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 24
+newline$ -- 123
+num.names$ -- 74
+pop$ -- 137
+preamble$ -- 1
+purify$ -- 183
+quote$ -- 0
+skip$ -- 281
+stack$ -- 0
+substring$ -- 878
+swap$ -- 46
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 144
+warning$ -- 1
+while$ -- 97
+width$ -- 0
+write$ -- 315
+(There was 1 warning)
