@@ -21,26 +21,34 @@
 {\tabkai 类别} & {\tabkai 占比} & {\tabkai 累计占比} & {\tabkai 风险等级} & {\tabkai 核心分析组} \\
 \midrule
 {\tabkai 社会} & 34.82\% & 34.82\% & {\tabkai 高风险} & {\tabkai 社会类} \\
-{\tabkai 明星} & 11.86\% & 46.68\% & {\tabkai 低风险} & {\tabkai 娱乐类（核心）} \\
+{\tabkai 明星} & 11.86\% & 46.68\% & {\tabkai 低风险} & {\tabkai 娱乐类} \\
 {\tabkai 体育} & 10.43\% & 57.11\% & {\tabkai 中风险} & --- \\
 {\tabkai 时事} & 6.52\% & 63.63\% & {\tabkai 中风险} & --- \\
-{\tabkai 游戏} & 4.82\% & 68.45\% & {\tabkai 低风险} & --- \\
+{\tabkai 游戏} & 4.82\% & 68.45\% & {\tabkai 低风险} & {\tabkai 娱乐类} \\
 {\tabkai 明星-内地} & 4.61\% & 73.06\% & {\tabkai 低风险} & {\tabkai 娱乐类} \\
-{\tabkai 综艺} & 4.30\% & 77.36\% & {\tabkai 低风险} & --- \\
-{\tabkai 电视剧} & 3.17\% & 80.53\% & {\tabkai 低风险} & --- \\
-{\tabkai 搞笑} & 2.69\% & 83.22\% & {\tabkai 低风险} & --- \\
+{\tabkai 综艺} & 4.30\% & 77.36\% & {\tabkai 低风险} & {\tabkai 娱乐类} \\
+{\tabkai 电视剧} & 3.17\% & 80.53\% & {\tabkai 低风险} & {\tabkai 娱乐类} \\
+{\tabkai 搞笑} & 2.69\% & 83.22\% & {\tabkai 低风险} & {\tabkai 娱乐类} \\
 {\tabkai 财经} & 2.46\% & 85.68\% & {\tabkai 中风险} & --- \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-基于理论假设中关于``监管强度的非对称性''，本文将上述类别聚合为两个核心对比组：社会类（占比34.82\%），主要涵盖公共事件、民生议题、社会现象等具有较强舆论属性的内容，根据《算法专项治理清单指引》第11条和第23条，此类内容被纳入平台重点监测范围，面临更高的信息真实性、来源可溯性要求，构成典型的``高风险、高合规成本''类别；娱乐类（包括``明星''与``明星-内地''，合计占比16.47\%），主要涵盖明星动态、娱乐八卦、粉丝互动等内容，其特征是用户参与度高但舆论风险相对可控，监管多采取``守住底线''的防御性姿态，构成典型的``低风险、低合规成本''类别。选择这两个类别作为核心对比组，是因为二者在监管强度、内容属性、用户群体等维度上呈现出最鲜明的两极分化特征，这种``极端对比''策略有助于清晰识别算法治理的差异化效应。
+基于理论假设中关于``监管强度的非对称性''，本文将上述类别聚合为两个核心对比组：社会类（占比34.82\%），主要涵盖公共事件、民生议题、社会现象等具有较强舆论属性的内容，根据《算法专项治理清单指引》第11条和第23条，此类内容被纳入平台重点监测范围，面临更高的信息真实性、来源可溯性要求，构成典型的``高风险、高合规成本''类别；娱乐类（包括明星、明星-内地、游戏、综艺、电视剧、搞笑等六个子类别，合计占比31.45\%），主要涵盖明星动态、娱乐八卦、游戏资讯、综艺节目、影视剧集、搞笑内容等泛娱乐领域话题，其特征是用户参与度高但舆论风险相对可控，监管多采取``守住底线''的防御性姿态，构成典型的``低风险、低合规成本''类别。选择这两个类别作为核心对比组，是因为二者在监管强度、内容属性、用户群体等维度上呈现出最鲜明的两极分化特征，这种``极端对比''策略有助于清晰识别算法治理的差异化效应。
 
 \subsection{变量定义与测量}
 
 本研究构建了涵盖多样性、质量、注意力配置、注意力密度四个维度的指标体系，以全面检验算法治理对平台生态系统的重构效应。表\ref{tab:variables}汇总了所有核心变量的定义、测量方法、文献来源及对应假说。
 
-\subsubsection{多样性指标（H1）}
+\subsubsection{质量指标（H1）}
+
+信息差指数基于\citet{Loewenstein1994}的信息差理论（information gap theory），该理论指出当个体意识到知识缺口时会产生强烈好奇心，驱使其采取行动填补缺口。诱导性标题（clickbait）正是利用这一心理机制，通过制造标题与内容之间的语义悬念来操纵用户的注意力分配\citep{Golman2018}。本研究采用基于关键词词频统计的方法构建信息差指数，该方法在社交媒体内容分析中得到广泛应用\citep{Chakraborty2016}。
+
+具体而言，本文识别话题标题中制造好奇缺口的三类语言特征：疑问词（为何、为什么、怎么、什么、原因、真相）、悬念词（曝、竟、暗示、去向、结局、神反转、揭秘、内幕、背后）、疑问标点（?、？）。本研究采用关键词词频聚合方法构建信息差指数：通过对标题文本进行分词处理，统计上述三类特征词的出现频次，将标题中出现任一特征词的情况标记为存在信息差。该方法遵循内容分析领域的标准化编码流程，在保证测量效度的同时兼顾了大规模文本分析的可操作性。该二元测度直接捕捉了标题是否利用``知识缺口''策略吸引注意力，值越高表示信息诱导程度越强，内容质量越低。
+
+为检验H1b中提出的``机构媒体相对优势''假说，本文对话题的信源属性进行了分类。根据\citet{He2022}对中国舆论生态的研究，机构媒体在内容规范性和信息可信度方面具有显著优势，构成平台治理中的``质量基准''。本研究基于人工标注数据（manual\_host\_labels.csv）对话题主持人进行机构媒体/自媒体分类，该标注结合了启发式规则和人工校验。机构媒体定义为：传统主流媒体（如央视新闻、澎湃新闻、新京报）、政务账号（如公安部、各地卫健委）及新闻门户账号。机构媒体虚拟变量赋值为1，自媒体及个人账号赋值为0。
+
+\subsubsection{多样性指标（H2）}
 
 Shannon熵是信息论中衡量分布不确定性的经典指标，广泛应用于推荐系统多样性的评估\citep{OestreicherSinger2012}。该指标值越大，表示注意力分布越均匀，头部垄断程度越低。定义为：
 \begin{equation}
@@ -53,14 +61,6 @@ HHI指数源于产业组织理论，用于衡量市场集中度\citep{Berman2018
 \text{HHI} = \sum_{i=1}^{N} p_i^2
 \end{equation}
 HHI的取值范围为$[1/N, 1]$。当注意力完全均匀分布时，$\text{HHI} = 1/N$，集中度最低；当注意力完全集中于单一话题时，$\text{HHI} = 1$，集中度最高。
-
-\subsubsection{质量指标（H2）}
-
-信息差指数基于\citet{Loewenstein1994}的信息差理论（information gap theory），该理论指出当个体意识到知识缺口时会产生强烈好奇心，驱使其采取行动填补缺口。标题党（clickbait）正是利用这一心理机制，通过制造标题与内容之间的语义悬念来操纵用户的注意力分配\citep{Golman2018}。本研究采用基于关键词词频统计的方法构建信息差指数，该方法在社交媒体内容分析中得到广泛应用\citep{Chakraborty2016}。
-
-具体而言，本文识别话题标题中制造好奇缺口的三类语言特征：疑问词（为何、为什么、怎么、什么、原因、真相）、悬念词（曝、竟、暗示、去向、结局、神反转、揭秘、内幕、背后）、疑问标点（?、？）。只要标题中出现任一上述特征，即判定为存在信息差（赋值为1），否则为0。该二元测度直接捕捉了标题是否利用``知识缺口''策略吸引注意力，值越高表示标题党程度越严重，内容质量越低。
-
-为检验H2b中提出的``官媒相对优势''假说，本文对话题的信源属性进行了分类。根据\citet{He2022}对中国舆论生态的研究，官方媒体在内容规范性和信息可信度方面具有显著优势，构成平台治理中的``质量基准''。本研究基于人工标注数据（manual\_host\_labels.csv）对话题主持人进行官方/非官方媒体分类，该标注结合了启发式规则和人工校验。官方媒体定义为：党媒（如人民日报、新华社）、政务账号（如公安、卫健委）及传统主流媒体（如央视新闻、澎湃新闻）。官方媒体虚拟变量赋值为1，其他账号赋值为0。
 
 \subsubsection{注意力配置指标（H3）}
 
@@ -93,19 +93,19 @@ HHI的取值范围为$[1/N, 1]$。当注意力完全均匀分布时，$\text{HHI
 \toprule
 {\tabkai 变量名称} & {\tabkai 变量符号} & {\tabkai 变量定义} \\
 \midrule
-\multicolumn{3}{l}{\textit{\tabkai 多样性指标}} \\
+\multicolumn{3}{l}{\textit{\tabkai 质量指标（H1）}} \\
+{\tabkai 信息差指数} & $\var{InfoGap}$ & {\tabkai 二元变量，标题含疑问词/悬念词/疑问标点=1，否则=0} \\
+{\tabkai 机构媒体} & $\var{Institutional}$ & {\tabkai 主流媒体/政务账号/新闻门户=1，自媒体及个人=0（基于人工标注）} \\
+\midrule
+\multicolumn{3}{l}{\textit{\tabkai 多样性指标（H2）}} \\
 {\tabkai Shannon熵} & $\var{H}$ & $H(p) = -\sum_{i=1}^{N} p_i \ln p_i$，$p_i${\tabkai 为第}$i${\tabkai 个话题的注意力份额} \\
 {\tabkai HHI指数} & $\var{HHI}$ & $\text{HHI} = \sum_{i=1}^{N} p_i^2$，{\tabkai 衡量注意力集中度} \\
 \midrule
-\multicolumn{3}{l}{\textit{\tabkai 质量指标}} \\
-{\tabkai 信息差指数} & $\var{InfoGap}$ & {\tabkai 二元变量，标题含疑问词/悬念词/疑问标点=1，否则=0} \\
-{\tabkai 官方媒体} & $\var{Official}$ & {\tabkai 党媒/政务/主流媒体=1，其他=0（基于人工标注）} \\
-\midrule
-\multicolumn{3}{l}{\textit{\tabkai 注意力配置指标}} \\
+\multicolumn{3}{l}{\textit{\tabkai 注意力配置指标（H3）}} \\
 {\tabkai 注意力份额} & $\var{Share}$ & {\tabkai 类别}$i${\tabkai 在}$t${\tabkai 日的在榜时长占全部话题在榜时长的比例} \\
 {\tabkai 周度总热度} & $\var{TotalHeat}$ & {\tabkai 一周内所有话题热度值的加总} \\
 \midrule
-\multicolumn{3}{l}{\textit{\tabkai 注意力密度指标}} \\
+\multicolumn{3}{l}{\textit{\tabkai 注意力密度指标（H4）}} \\
 {\tabkai 单条话题平均时长} & $\var{Density}$ & {\tabkai 类别总在榜时长除以该类别上榜话题数量} \\
 \bottomrule
 \end{tabular}
@@ -113,44 +113,46 @@ HHI的取值范围为$[1/N, 1]$。当注意力完全均匀分布时，$\text{HHI
 
 \subsection{计量模型设定}
 
-本研究采用基于OLS的断点回归时间序列分析与双重差分（DID）相结合的识别策略，以充分利用政策冲击的外生性和数据的面板结构。OLS时间序列模型用于检验H1（注意力去中心化）、H3（注意力再分配）和H4（注意力密度分化），通过对比政策实施前后整体层面的趋势变化识别政策的断点效应；对于H2（内容质量分化），本文先采用分组OLS回归检验社会类与娱乐类的整体质量变化，再采用DID模型作为稳健性检验，通过对比社会类内部官方媒体与非官方媒体的相对变化，进一步验证质量分化机制。
+本研究采用断点回归时间序列（ITS）作为主要识别策略，辅以双重差分（DID）进行稳健性检验。ITS模型用于检验四项核心假设的主效应；DID模型专门用于H1（内容质量分化）的稳健性检验，通过对比社会类内部机构媒体与自媒体的相对变化，强化因果识别。
 
-\subsubsection{模型1：注意力去中心化检验（H1）}
+\subsubsection{模型1：内容质量分化检验（H1）}
 
-基于日度时间序列数据，本文采用OLS回归模型检验政策实施后Shannon熵和HHI的断点变化：
+本文采用两阶段检验策略。
+
+第一阶段（ITS主效应检验）：通过分组ITS回归对比社会类与娱乐类在信息差指数上的政策前后变化：
 \begin{equation}
-Y_t = \beta_0 + \beta_1 \text{Post}_t + \beta_2 \text{Trend}_t + \beta_3 (\text{Post}_t \times \text{Trend}_t) + \varepsilon_t
+\text{InfoGap}_{it} = \beta_0 + \beta_1 \text{Post}_t + \beta_2 \text{Trend}_t + \beta_3 (\text{Post}_t \times \text{Trend}_t) + \gamma_w + \delta_q + \theta \text{Holiday}_t + \varepsilon_{it}
 \end{equation}
-其中，$Y_t$为$t$日的Shannon熵或HHI，$\text{Post}_t$为政策实施虚拟变量（2024年11月12日及之后=1，之前=0），$\text{Trend}_t$为线性时间趋势（从1开始递增的日序列），$\text{Post}_t \times \text{Trend}_t$为政策后趋势交互项。$\beta_1$捕捉政策的即时效应（level change），即政策实施当日Shannon熵或HHI的跳跃性变化；$\beta_3$捕捉政策的趋势效应（slope change），即政策后Shannon熵或HHI的增长速度（或下降速度）相对政策前的变化。标准误采用Newey-West方法校正以处理潜在的序列相关性。
+分别对社会类和娱乐类样本运行该模型，检验各自的质量变化趋势。$\beta_1$捕捉政策的即时效应，$\beta_3$捕捉政策的趋势效应。模型控制星期固定效应$\gamma_w$、季度固定效应$\delta_q$和节假日效应$\theta$，以剔除时间序列中的周期性波动。
 
-\subsubsection{模型2：内容质量分化检验（H2）}
-
-本文采用两阶段嵌套检验策略。第一阶段（主效应检验）通过分组OLS回归对比社会类与娱乐类在信息差指数上的政策前后变化：
+第二阶段（DID稳健性检验）：在社会类内部构建DID模型，以机构媒体话题为处理组、自媒体话题为对照组：
 \begin{equation}
-\text{InfoGap}_{it} = \beta_0 + \beta_1 \text{Post}_t + \beta_2 \text{Trend}_t + \beta_3 (\text{Post}_t \times \text{Trend}_t) + \varepsilon_{it}
+\text{InfoGap}_{it} = \alpha + \delta (\text{Post}_t \times \text{Institutional}_i) + \gamma_i + \lambda_t + \varepsilon_{it}
 \end{equation}
-分别对社会类和娱乐类样本运行该模型，检验各自的质量变化趋势。
+其中，$\text{Institutional}_i$为机构媒体虚拟变量，$\gamma_i$为话题固定效应，$\lambda_t$为时间固定效应。$\delta$为DID估计量，捕捉政策实施后机构媒体相对自媒体的信息差净变化。DID识别的有效性依赖于平行趋势假设，本文将在稳健性检验部分报告平行趋势检验结果。
 
-第二阶段（稳健性检验）在社会类内部构建DID模型，以官媒话题为对照组、非官媒话题为处理组：
+\subsubsection{模型2：注意力去中心化检验（H2）}
+
+基于日度时间序列数据，本文采用ITS模型检验政策实施后Shannon熵和HHI的断点变化：
 \begin{equation}
-\text{InfoGap}_{it} = \alpha + \delta (\text{Post}_t \times \text{Official}_i) + \gamma_i + \lambda_t + \varepsilon_{it}
+Y_t = \beta_0 + \beta_1 \text{Post}_t + \beta_2 \text{Trend}_t + \beta_3 (\text{Post}_t \times \text{Trend}_t) + \gamma_w + \delta_q + \theta \text{Holiday}_t + \varepsilon_t
 \end{equation}
-其中，$\text{Official}_i$为官方媒体虚拟变量（基于人工标注数据），$\gamma_i$为话题固定效应，$\lambda_t$为时间固定效应。$\delta$为DID估计量，捕捉政策实施后非官方媒体相对官方媒体的信息差净变化。
+其中，$Y_t$为$t$日的Shannon熵或HHI，$\text{Post}_t$为政策实施虚拟变量（2024年11月12日及之后=1，之前=0），$\text{Trend}_t$为线性时间趋势。为控制时间序列中的周期性波动，模型纳入星期固定效应$\gamma_w$（以周一为基准）和季度固定效应$\delta_q$（以第一季度为基准），以捕捉工作日与周末、不同季节之间的系统性差异。此外，模型引入节假日虚拟变量$\text{Holiday}_t$控制中国法定节假日（包括春节、国庆、清明、端午、中秋等）对热搜话题分布的冲击效应。标准误采用异方差稳健标准误（HC3）校正以处理潜在的异方差性。
 
 \subsubsection{模型3：注意力再分配检验（H3）}
 
-与模型1结构相同，但因变量改为特定类别的注意力份额。本文分别对社会类和娱乐类运行OLS回归：
+与模型2结构相同，但因变量改为特定类别的注意力份额。本文分别对社会类和娱乐类运行ITS回归：
 \begin{equation}
-\text{Share}_{it} = \beta_0 + \beta_1 \text{Post}_t + \beta_2 \text{Trend}_t + \beta_3 (\text{Post}_t \times \text{Trend}_t) + \varepsilon_t
+\text{Share}_{it} = \beta_0 + \beta_1 \text{Post}_t + \beta_2 \text{Trend}_t + \beta_3 (\text{Post}_t \times \text{Trend}_t) + \gamma_w + \delta_q + \theta \text{Holiday}_t + \varepsilon_t
 \end{equation}
-根据H3a和H3b，预期社会类的$\beta_1 < 0$（份额即时下降）且$\beta_3$可能为负（持续下降趋势），娱乐类的$\beta_1 > 0$（份额即时上升）且$\beta_3$可能为正。
+根据H3a和H3b，预期社会类的$\beta_1 < 0$（份额即时下降），娱乐类的$\beta_1 > 0$（份额即时上升）。模型同样控制星期固定效应、季度固定效应和节假日效应。
 
 \subsubsection{模型4：注意力密度分化检验（H4）}
 
-对社会类和娱乐类分别运行OLS回归，因变量为单条话题平均在榜时长：
+对社会类和娱乐类分别运行ITS回归，因变量为单条话题平均在榜时长：
 \begin{equation}
-\text{Density}_{it} = \beta_0 + \beta_1 \text{Post}_t + \beta_2 \text{Trend}_t + \beta_3 (\text{Post}_t \times \text{Trend}_t) + \varepsilon_t
+\text{Density}_{it} = \beta_0 + \beta_1 \text{Post}_t + \beta_2 \text{Trend}_t + \beta_3 (\text{Post}_t \times \text{Trend}_t) + \gamma_w + \delta_q + \theta \text{Holiday}_t + \varepsilon_t
 \end{equation}
-根据H4a和H4b，预期社会类的$\beta_1 \geq 0$（密度保持稳定或上升，``少而精''），娱乐类的$\beta_1 > 0$（密度上升，``多且长''）。
+根据H4a和H4b，预期社会类的$\beta_1 \geq 0$（``少而精''），娱乐类的$\beta_1 > 0$（``多且长''）。各模型均控制星期固定效应、季度固定效应和节假日效应，以提高估计精度并排除时间趋势中的周期性干扰。
 
-以上模型设定充分利用了政策冲击的准自然实验特征，通过OLS时间序列分析和DID的结合使用，从整体层面和类别内部两个维度识别算法治理的因果效应，为后续实证分析提供了严谨的计量框架。
+以上模型设定充分利用了政策冲击的准自然实验特征，通过ITS主效应检验和DID稳健性检验的结合使用，从整体层面和类别内部两个维度识别算法治理的因果效应，为后续实证分析提供了严谨的计量框架。
