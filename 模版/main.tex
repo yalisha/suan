@@ -85,6 +85,15 @@
     pdfstartview=FitH
 }
 
+% 禁用引用超链接（中文期刊标准格式）
+\makeatletter
+\AtBeginDocument{%
+  \renewcommand{\hyper@natlinkstart}[1]{}%
+  \renewcommand{\hyper@natlinkend}{}%
+  \renewcommand{\hyper@natlinkbreak}[2]{#1}%
+}
+\makeatother
+
 %% ============================================
 %% 章节标题格式
 %% ============================================
@@ -217,7 +226,8 @@
 \input{02_theory}
 \input{03_data}
 \input{04_empirical}
-\input{05_conclusion}
+\input{05_heterogeneity}
+\input{06_conclusion}
 
 % 参考文献
 \newpage

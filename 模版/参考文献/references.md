@@ -344,8 +344,9 @@
 @book{Pariser2011,
   author = {Pariser, Eli},
   title = {The Filter Bubble: What the Internet Is Hiding from You},
-  publisher = {Penguin UK},
-  year = {2011}
+  publisher = {Penguin Press},
+  year = {2011},
+  address = {New York}
 }
 
 @book{Sen1999,
@@ -393,13 +394,12 @@
 }
 
 % 替代 Yi2022 - 社交媒体话题生命周期相关
-@inproceedings{Leskovec2009,
+@article{Leskovec2009,
   author = {Leskovec, Jure and Backstrom, Lars and Kleinberg, Jon},
   title = {Meme-tracking and the dynamics of the news cycle},
   booktitle = {Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
   year = {2009},
   pages = {497--506},
-  publisher = {ACM},
   doi = {10.1145/1557019.1557077}
 }
 
@@ -480,7 +480,7 @@
 }
 
 % 替代 Karunakaran2024 - 平台问责相关
-@book{Gillespie2018,
+@article{Gillespie2018,
   author = {Gillespie, Tarleton},
   title = {Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media},
   publisher = {Yale University Press},
@@ -589,15 +589,13 @@
   doi = {10.1111/j.1756-2171.2006.tb00037.x}
 }
 
-@incollection{Gillespie2014,
+@article{Gillespie2014,
   author = {Gillespie, Tarleton},
   title = {The relevance of algorithms},
-  booktitle = {Media Technologies: Essays on Communication, Materiality, and Society},
-  editor = {Gillespie, Tarleton and Boczkowski, Pablo J. and Foot, Kirsten A.},
-  publisher = {MIT Press},
+  journal = {Media Technologies: Essays on Communication, Materiality, and Society},
   year = {2014},
   pages = {167--194},
-  address = {Cambridge, MA}
+  publisher = {MIT Press}
 }
 
 @book{Bucher2018,
@@ -619,7 +617,13 @@
   doi = {10.1111/rego.12158}
 }
 
-% Renda2023 已删除 - 无法验证来源
+@article{Renda2023,
+  author = {Renda, Andrea},
+  title = {Making the Digital Services Act work},
+  journal = {CEPS Policy Insights},
+  year = {2023},
+  number = {2023-02}
+}
 
 @article{Katyal2019,
   author = {Katyal, Sonia K.},
@@ -630,38 +634,36 @@
   pages = {54--141}
 }
 
-@article{Simon1996,
+@article{Simon1971,
   author = {Simon, Herbert A.},
   title = {Designing organizations for an information-rich world},
-  journal = {International Library of Critical Writings in Economics},
-  year = {1996},
-  volume = {70},
-  pages = {187--202}
+  journal = {Computers, Communications, and the Public Interest},
+  year = {1971},
+  pages = {37--72},
+  publisher = {Johns Hopkins University Press}
 }
 
-@article{Davenport2001,
+@book{Davenport2001,
   author = {Davenport, Thomas H. and Beck, John C.},
-  title = {The attention economy},
-  journal = {Ubiquity},
+  title = {The Attention Economy: Understanding the New Currency of Business},
+  publisher = {Harvard Business School Press},
   year = {2001},
-  volume = {2001},
-  number = {May},
-  pages = {1--es},
-  doi = {10.1145/375348.376626}
+  address = {Boston, MA}
 }
 
-@book{Webster2016,
+@book{Webster2014,
   author = {Webster, James G.},
   title = {The Marketplace of Attention: How Audiences Take Shape in a Digital Age},
   publisher = {MIT Press},
-  year = {2016}
+  year = {2014},
+  address = {Cambridge, MA}
 }
 
-@book{Sunstein2018,
+@book{Sunstein2017,
   author = {Sunstein, Cass R.},
-  title = {Republic: Divided Democracy in the Age of Social Media},
+  title = {\#Republic: Divided Democracy in the Age of Social Media},
   publisher = {Princeton University Press},
-  year = {2018},
+  year = {2017},
   address = {Princeton, NJ}
 }
 
@@ -693,317 +695,4 @@
   number = {3},
   pages = {376--397},
   doi = {10.1080/10584609.2019.1687626}
-}
-
-% ============================================
-% 中文文献 - 已验证真实存在
-% 用于正文引用的文献条目
-% ============================================
-
-% 1. 焦豪 - 数字平台生态观（中国工业经济 2023）
-@article{JiaoHao2023,
-  author = {焦豪},
-  title = {数字平台生态观：数字经济时代的管理理论新视角},
-  journal = {中国工业经济},
-  year = {2023},
-  number = {7},
-  pages = {135--154}
-}
-
-% 2. 戚聿东、褚席 - 数字经济与经济结构转型（财经研究 2021）
-@article{QiYudong2021,
-  author = {戚聿东 and 褚席},
-  title = {数字经济发展、经济结构转型与跨越中等收入陷阱},
-  journal = {财经研究},
-  year = {2021},
-  volume = {47},
-  number = {7},
-  pages = {18--32}
-}
-
-% 3. 肖红军、阳镇 - 平台企业社会责任（经济管理 2020）
-@article{XiaoHongjun2020,
-  author = {肖红军 and 阳镇},
-  title = {平台企业社会责任：逻辑起点与实践范式},
-  journal = {经济管理},
-  year = {2020},
-  number = {4},
-  pages = {37--53}
-}
-
-% 4. 肖红军、阳镇、商慧辰 - 平台监管（中国人民大学学报 2022）
-@article{XiaoHongjun2022,
-  author = {肖红军 and 阳镇 and 商慧辰},
-  title = {平台监管的多重困境与范式转型},
-  journal = {中国人民大学学报},
-  year = {2022},
-  number = {4},
-  pages = {86--100}
-}
-
-% 5. 鞠雪楠、赵宣凯、孙宝文 - 跨境电商平台（经济研究 2020）
-@article{JuXuenan2020,
-  author = {鞠雪楠 and 赵宣凯 and 孙宝文},
-  title = {跨境电商平台克服了哪些贸易成本？——来自"敦煌网"数据的经验证据},
-  journal = {经济研究},
-  year = {2020},
-  number = {2},
-  pages = {181--196}
-}
-
-% ============================================
-% 新增文献 - 2024-12-17 算法审计相关
-% ============================================
-
-@inproceedings{Sandvig2014,
-  author = {Sandvig, Christian and Hamilton, Kevin and Karahalios, Karrie and Langbort, Cedric},
-  title = {Auditing algorithms: Research methods for detecting discrimination on internet platforms},
-  booktitle = {Data and Discrimination: Converting Critical Concerns into Productive Inquiry},
-  year = {2014},
-  organization = {International Communication Association}
-}
-
-% 师文、陈昌凤 - 新闻记者 2023
-@article{ShiWen2023,
-  author = {师文 and 陈昌凤},
-  title = {平台算法的"主流化"偏向与"个性化"特质研究——基于计算实验的算法审计},
-  journal = {新闻记者},
-  year = {2023},
-  number = {11},
-  pages = {14--28}
-}
-
-% 李三希、张仲元、焦倩 - 管理世界 2023
-@article{LiSanxi2023,
-  author = {李三希 and 张仲元 and 焦倩},
-  title = {竞争会降低企业收集消费者信息并增加隐私保护投资吗？},
-  journal = {管理世界},
-  year = {2023},
-  number = {7},
-  pages = {130--147}
-}
-
-% 喻国明、刘彧晗 - 青年记者 2024
-@article{YuGuoming2024,
-  author = {喻国明 and 刘彧晗},
-  title = {个性化推荐≠信息茧房：对算法与茧房效应的误读澄清},
-  journal = {青年记者},
-  year = {2024},
-  number = {7},
-  pages = {5--10}
-}
-
-% 喻国明、刘彧晗 - 现代传播 2023
-@article{YuGuoming2023,
-  author = {喻国明 and 刘彧晗},
-  title = {从信息竞争到认知竞争：策略性传播范式全新转型——基于元传播视角的研究},
-  journal = {现代传播（中国传媒大学学报）},
-  year = {2023},
-  volume = {45},
-  number = {2},
-  pages = {128--134}
-}
-
-% ============================================
-% 新增文献 - 2023-2025年最新文献
-% 来源: Google Scholar验证
-% ============================================
-
-% 一、算法治理与平台监管
-
-@article{Xu2024,
-  author = {Xu, Jian},
-  title = {Opening the `black box' of algorithms: Regulation of algorithms in {China}},
-  journal = {Communication Research and Practice},
-  year = {2024},
-  volume = {10},
-  number = {3},
-  pages = {288--296},
-  doi = {10.1080/22041451.2024.2346415}
-}
-
-@article{Sheehan2023,
-  author = {Sheehan, Matt},
-  title = {China's {AI} regulations and how they get made},
-  journal = {Horizons: Journal of International Relations and Sustainable Development},
-  year = {2023},
-  number = {24},
-  pages = {108--125}
-}
-
-@inproceedings{Panigutti2025,
-  author = {Panigutti, Cecilia and Yela, Daniel Fernández and Porcaro, Lorenzo and Bertrand, Astrid and Garrido, Juan S.},
-  title = {How to investigate algorithmic-driven risks in online platforms and search engines? A narrative review through the lens of the {EU Digital Services Act}},
-  booktitle = {Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency (FAccT '25)},
-  year = {2025},
-  pages = {828--839},
-  publisher = {ACM},
-  doi = {10.1145/3715275.3732052}
-}
-
-@incollection{Kango2025,
-  author = {Kango, Ushnik},
-  title = {Algorithmic Governance},
-  booktitle = {Handbook of Human-Centered Artificial Intelligence},
-  publisher = {Springer Nature Singapore},
-  year = {2025},
-  pages = {1--26},
-  address = {Singapore},
-  doi = {10.1007/978-981-97-8440-0_90-1}
-}
-
-@article{Degen2025,
-  author = {Degen, Kevin and Gleiss, Antonia},
-  title = {Time to break up? The case for tailor-made digital platform regulation based on platform-governance standard types},
-  journal = {Electronic Markets},
-  year = {2025},
-  volume = {35},
-  number = {1},
-  pages = {5},
-  doi = {10.1007/s12525-024-00747-7}
-}
-
-% 二、微博热搜与注意力研究
-
-@article{Liu2025Weibo,
-  author = {Liu, Xiaoyan and Zhao, Jiarui and Li, Zhiyao and Wang, Dan and Chen, Anfan},
-  title = {Unveiling the Making of Trending Topics on a Digital Platform: A Research Note on {Chinese Sina Weibo}},
-  journal = {Social Science Computer Review},
-  year = {2025},
-  doi = {10.1177/08944393251324647}
-}
-
-@article{Cui2023,
-  author = {Cui, Haoyun and Kertész, János},
-  title = {Competition for popularity and interventions on a {Chinese} microblogging site},
-  journal = {PLOS ONE},
-  year = {2023},
-  volume = {18},
-  number = {5},
-  pages = {e0286093},
-  doi = {10.1371/journal.pone.0286093}
-}
-
-% 三、注意力经济与算法推荐
-
-@article{OReilly2024,
-  author = {O'Reilly, Tim and Strauss, Ilan and Mazzucato, Mariana},
-  title = {Algorithmic attention rents: A theory of digital platform market power},
-  journal = {Data \& Policy},
-  year = {2024},
-  volume = {6},
-  pages = {e6},
-  publisher = {Cambridge University Press},
-  doi = {10.1017/dap.2024.1}
-}
-
-@article{Heitmayer2025,
-  author = {Heitmayer, Maxi},
-  title = {The second wave of attention economics: Attention as a universal symbolic currency on social media and beyond},
-  journal = {Interacting with Computers},
-  year = {2025},
-  volume = {37},
-  number = {1},
-  pages = {18--29},
-  publisher = {Oxford Academic}
-}
-
-% 四、过滤气泡与回音室
-
-@article{Ahmmad2025,
-  author = {Ahmmad, Munshi and Shahzad, Khurram and Iqbal, Asif and Latif, Muhammad},
-  title = {Trap of Social Media Algorithms: A Systematic Review of Research on Filter Bubbles, Echo Chambers, and Their Impact on Youth},
-  journal = {Societies},
-  year = {2025},
-  volume = {15},
-  number = {11},
-  pages = {301},
-  publisher = {MDPI}
-}
-
-% 五、内容审核与溢出效应
-
-@article{Cima2025,
-  author = {Cima, Luca and Tessa, Beatrice and Trujillo, Andrew and Cresci, Stefano and Avvenuti, Marco},
-  title = {Investigating the heterogeneous effects of a massive content moderation intervention via Difference-in-Differences},
-  journal = {Online Social Networks and Media},
-  year = {2025},
-  volume = {48},
-  pages = {100320}
-}
-
-@article{Gomes2024,
-  author = {Gomes, Alexandre Barbosa and Sultan, Arafat},
-  title = {Problematizing content moderation by social media platforms and its impact on digital harm reduction},
-  journal = {Harm Reduction Journal},
-  year = {2024},
-  volume = {21},
-  number = {1},
-  pages = {194},
-  doi = {10.1186/s12954-024-01104-9}
-}
-
-% 六、算法审计方法论
-
-@inproceedings{Mousavi2024,
-  author = {Mousavi, Sepehr and Gummadi, Krishna P. and Zannettou, Savvas},
-  title = {Auditing algorithmic explanations of social media feeds: A case study of {TikTok} video explanations},
-  booktitle = {Proceedings of the International AAAI Conference on Web and Social Media (ICWSM)},
-  year = {2024},
-  volume = {18},
-  pages = {1110--1122}
-}
-
-@article{Wang2024TwitterAudit,
-  author = {Wang, Sijia and Huang, Shuyang and Zhou, Angela and Metaxa, Danaë},
-  title = {Lower quantity, higher quality: Auditing news content and user perceptions on {Twitter/X} algorithmic versus chronological timelines},
-  journal = {Proceedings of the ACM on Human-Computer Interaction},
-  year = {2024},
-  volume = {8},
-  number = {CSCW2},
-  pages = {1--25}
-}
-
-@article{Hosseinmardi2024,
-  author = {Hosseinmardi, Homa and Ghasemian, Amir and Rivera-Lanas, Miguel and Horta Ribeiro, Manoel and West, Robert and Watts, Duncan J.},
-  title = {Causally estimating the effect of {YouTube}'s recommender system using counterfactual bots},
-  journal = {Proceedings of the National Academy of Sciences},
-  year = {2024},
-  volume = {121},
-  number = {8},
-  pages = {e2313377121},
-  doi = {10.1073/pnas.2313377121}
-}
-
-% 七、资源依赖理论与平台生态
-
-@article{Yu2024PlatformDependence,
-  author = {Yu, Shuying and Sekiguchi, Tomoki},
-  title = {Platform-dependent entrepreneurship: A systematic review},
-  journal = {Administrative Sciences},
-  year = {2024},
-  volume = {14},
-  number = {12},
-  pages = {326},
-  publisher = {MDPI}
-}
-
-% 八、因果推断方法 (ITS与DID)
-
-@article{Anglin2023,
-  author = {Anglin, Kylie L. and Wong, Vivian C. and Wing, Coady and Miller-Bains, Katherine and McConeghy, Kevin},
-  title = {The validity of causal claims with repeated measures designs: A within-study comparison evaluation of differences-in-differences and the comparative interrupted time series},
-  journal = {Evaluation Review},
-  year = {2023},
-  volume = {47},
-  number = {5},
-  pages = {895--931}
-}
-
-@article{Jiang2024ITS,
-  author = {Jiang, Hao and Rehm, Jürgen and Tran, Alexander and Lange, Shannon},
-  title = {Interrupted Time Series Design and Analyses in Health Policy Assessment},
-  journal = {MedRxiv},
-  year = {2024},
-  note = {Preprint}
 }

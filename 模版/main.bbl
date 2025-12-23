@@ -1,5 +1,19 @@
 \begin{thebibliography}{}
 
+\bibitem[Ahmmad et~al., 2025]{Ahmmad2025}
+Ahmmad, M., Shahzad, K., Iqbal, A., and Latif, M. (2025).
+\newblock Trap of social media algorithms: A systematic review of research on
+  filter bubbles, echo chambers, and their impact on youth.
+\newblock {\em Societies}, 15(11):301.
+
+\bibitem[Anglin et~al., 2023]{Anglin2023}
+Anglin, K.~L., Wong, V.~C., Wing, C., Miller-Bains, K., and McConeghy, K.
+  (2023).
+\newblock The validity of causal claims with repeated measures designs: A
+  within-study comparison evaluation of differences-in-differences and the
+  comparative interrupted time series.
+\newblock {\em Evaluation Review}, 47(5):895--931.
+
 \bibitem[Armstrong, 2006]{Armstrong2006}
 Armstrong, M. (2006).
 \newblock Competition in two-sided markets.
@@ -28,16 +42,38 @@ Chen, Y., Conroy, N.~J., and Rubin, V.~L. (2015).
 \newblock In {\em Proceedings of the 2015 ACM Workshop on Multimodal Deception
   Detection}, pages 15--19. ACM.
 
+\bibitem[Cima et~al., 2025]{Cima2025}
+Cima, L., Tessa, B., Trujillo, A., Cresci, S., and Avvenuti, M. (2025).
+\newblock Investigating the heterogeneous effects of a massive content
+  moderation intervention via difference-in-differences.
+\newblock {\em Online Social Networks and Media}, 48:100320.
+
 \bibitem[Creemers, 2022]{Creemers2022}
 Creemers, R. (2022).
 \newblock China's emerging data protection framework.
 \newblock {\em Journal of Cybersecurity}, 8(1):tyac011.
 
+\bibitem[Cui and Kertész, 2023]{Cui2023}
+Cui, H. and Kertész, J. (2023).
+\newblock Competition for popularity and interventions on a {Chinese}
+  microblogging site.
+\newblock {\em PLOS ONE}, 18(5):e0286093.
+
 \bibitem[Davenport and Beck, 2001]{Davenport2001}
 Davenport, T.~H. and Beck, J.~C. (2001).
-\newblock {\em The Attention Economy: Understanding the New Currency of
-  Business}.
-\newblock Harvard Business School Press, Boston, MA.
+\newblock The attention economy.
+\newblock {\em Ubiquity}, 2001(May):1--es.
+
+\bibitem[Degen and Gleiss, 2025]{Degen2025}
+Degen, K. and Gleiss, A. (2025).
+\newblock Time to break up? the case for tailor-made digital platform
+  regulation based on platform-governance standard types.
+\newblock {\em Electronic Markets}, 35(1):5.
+
+\bibitem[Diakopoulos, 2016]{Diakopoulos2016}
+Diakopoulos, N. (2016).
+\newblock Accountability in algorithmic decision making.
+\newblock {\em Communications of the ACM}, 59(2):56--62.
 
 \bibitem[Ghazawneh and Henfridsson, 2013]{Ghazawneh2013}
 Ghazawneh, A. and Henfridsson, O. (2013).
@@ -48,19 +84,27 @@ Ghazawneh, A. and Henfridsson, O. (2013).
 \bibitem[Gillespie, 2014]{Gillespie2014}
 Gillespie, T. (2014).
 \newblock The relevance of algorithms.
-\newblock {\em Media Technologies: Essays on Communication, Materiality, and
-  Society}, pages 167--194.
+\newblock In Gillespie, T., Boczkowski, P.~J., and Foot, K.~A., editors, {\em
+  Media Technologies: Essays on Communication, Materiality, and Society}, pages
+  167--194. MIT Press, Cambridge, MA.
 
 \bibitem[Gillespie, 2018]{Gillespie2018}
 Gillespie, T. (2018).
-\newblock Custodians of the internet: Platforms, content moderation, and the
-  hidden decisions that shape social media.
+\newblock {\em Custodians of the Internet: Platforms, Content Moderation, and
+  the Hidden Decisions That Shape Social Media}.
+\newblock Yale University Press, New Haven, CT.
 
 \bibitem[Golman and Loewenstein, 2018]{Golman2018}
 Golman, R. and Loewenstein, G. (2018).
 \newblock Information gaps: A theory of preferences regarding the presence and
   absence of information.
 \newblock {\em Decision}, 5(3):143--164.
+
+\bibitem[Gomes and Sultan, 2024]{Gomes2024}
+Gomes, A.~B. and Sultan, A. (2024).
+\newblock Problematizing content moderation by social media platforms and its
+  impact on digital harm reduction.
+\newblock {\em Harm Reduction Journal}, 21(1):194.
 
 \bibitem[Gorwa et~al., 2020]{Gorwa2020}
 Gorwa, R., Binns, R., and Katzenbach, C. (2020).
@@ -85,6 +129,12 @@ He, S., Hollenbeck, B., and Proserpio, D. (2022).
 \newblock The market for fake reviews.
 \newblock {\em Marketing Science}, 41(5):896--921.
 
+\bibitem[Heitmayer, 2025]{Heitmayer2025}
+Heitmayer, M. (2025).
+\newblock The second wave of attention economics: Attention as a universal
+  symbolic currency on social media and beyond.
+\newblock {\em Interacting with Computers}, 37(1):18--29.
+
 \bibitem[Hindman, 2018]{Hindman2018}
 Hindman, M. (2018).
 \newblock {\em The Internet Trap: How the Digital Economy Builds Monopolies and
@@ -96,6 +146,14 @@ Hosanagar, K., Fleder, D., Lee, D., and Buja, A. (2014).
 \newblock Will the global village fracture into tribes? recommender systems and
   their effects on consumer fragmentation.
 \newblock {\em Management Science}, 60(4):805--823.
+
+\bibitem[Hosseinmardi et~al., 2024]{Hosseinmardi2024}
+Hosseinmardi, H., Ghasemian, A., Rivera-Lanas, M., Horta~Ribeiro, M., West, R.,
+  and Watts, D.~J. (2024).
+\newblock Causally estimating the effect of {YouTube}'s recommender system
+  using counterfactual bots.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  121(8):e2313377121.
 
 \bibitem[Huber et~al., 2013]{Huber2013}
 Huber, T.~L., Fischer, T.~A., Dibbern, J., and Hirschheim, R. (2013).
@@ -115,6 +173,19 @@ Jhaver, S., Bruckman, A., and Gilbert, E. (2019).
 \newblock {\em Proceedings of the ACM on Human-Computer Interaction},
   3(CSCW):1--27.
 
+\bibitem[Jiang et~al., 2024]{Jiang2024ITS}
+Jiang, H., Rehm, J., Tran, A., and Lange, S. (2024).
+\newblock Interrupted time series design and analyses in health policy
+  assessment.
+\newblock {\em MedRxiv}.
+\newblock Preprint.
+
+\bibitem[Kango, 2025]{Kango2025}
+Kango, U. (2025).
+\newblock Algorithmic governance.
+\newblock In {\em Handbook of Human-Centered Artificial Intelligence}, pages
+  1--26. Springer Nature Singapore, Singapore.
+
 \bibitem[Katyal, 2019]{Katyal2019}
 Katyal, S.~K. (2019).
 \newblock Private accountability in the age of artificial intelligence.
@@ -123,12 +194,26 @@ Katyal, S.~K. (2019).
 \bibitem[Leskovec et~al., 2009]{Leskovec2009}
 Leskovec, J., Backstrom, L., and Kleinberg, J. (2009).
 \newblock Meme-tracking and the dynamics of the news cycle.
-\newblock pages 497--506.
+\newblock In {\em Proceedings of the 15th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 497--506. ACM.
+
+\bibitem[Liu et~al., 2025]{Liu2025Weibo}
+Liu, X., Zhao, J., Li, Z., Wang, D., and Chen, A. (2025).
+\newblock Unveiling the making of trending topics on a digital platform: A
+  research note on {Chinese Sina Weibo}.
+\newblock {\em Social Science Computer Review}.
 
 \bibitem[Loewenstein, 1994]{Loewenstein1994}
 Loewenstein, G. (1994).
 \newblock The psychology of curiosity: A review and reinterpretation.
 \newblock {\em Psychological Bulletin}, 116(1):75--98.
+
+\bibitem[Mousavi et~al., 2024]{Mousavi2024}
+Mousavi, S., Gummadi, K.~P., and Zannettou, S. (2024).
+\newblock Auditing algorithmic explanations of social media feeds: A case study
+  of {TikTok} video explanations.
+\newblock In {\em Proceedings of the International AAAI Conference on Web and
+  Social Media (ICWSM)}, volume~18, pages 1110--1122.
 
 \bibitem[Munger, 2020]{Munger2020}
 Munger, K. (2020).
@@ -141,10 +226,25 @@ Oestreicher-Singer, G. and Sundararajan, A. (2012).
   electronic markets.
 \newblock {\em Management Science}, 58(11):1963--1981.
 
+\bibitem[O'Reilly et~al., 2024]{OReilly2024}
+O'Reilly, T., Strauss, I., and Mazzucato, M. (2024).
+\newblock Algorithmic attention rents: A theory of digital platform market
+  power.
+\newblock {\em Data \& Policy}, 6:e6.
+
+\bibitem[Panigutti et~al., 2025]{Panigutti2025}
+Panigutti, C., Yela, D.~F., Porcaro, L., Bertrand, A., and Garrido, J.~S.
+  (2025).
+\newblock How to investigate algorithmic-driven risks in online platforms and
+  search engines? a narrative review through the lens of the {EU Digital
+  Services Act}.
+\newblock In {\em Proceedings of the 2025 ACM Conference on Fairness,
+  Accountability, and Transparency (FAccT '25)}, pages 828--839. ACM.
+
 \bibitem[Pariser, 2011]{Pariser2011}
 Pariser, E. (2011).
 \newblock {\em The Filter Bubble: What the Internet Is Hiding from You}.
-\newblock Penguin Press, New York.
+\newblock Penguin UK.
 
 \bibitem[Parker and Van~Alstyne, 2018]{Parker2018}
 Parker, G.~G. and Van~Alstyne, M.~W. (2018).
@@ -157,25 +257,33 @@ Pfeffer, J. and Salancik, G.~R. (1978).
   Perspective}.
 \newblock Harper \& Row, New York.
 
-\bibitem[Renda, 2023]{Renda2023}
-Renda, A. (2023).
-\newblock Making the digital services act work.
-\newblock {\em CEPS Policy Insights}, (2023-02).
-
 \bibitem[Rochet and Tirole, 2003]{Rochet2003}
 Rochet, J.-C. and Tirole, J. (2003).
 \newblock Platform competition in two-sided markets.
 \newblock {\em Journal of the European Economic Association}, 1(4):990--1029.
 
-\bibitem[Simon, 1971]{Simon1971}
-Simon, H.~A. (1971).
-\newblock Designing organizations for an information-rich world.
-\newblock {\em Computers, Communications, and the Public Interest}, pages
-  37--72.
+\bibitem[Sandvig et~al., 2014]{Sandvig2014}
+Sandvig, C., Hamilton, K., Karahalios, K., and Langbort, C. (2014).
+\newblock Auditing algorithms: Research methods for detecting discrimination on
+  internet platforms.
+\newblock In {\em Data and Discrimination: Converting Critical Concerns into
+  Productive Inquiry}. International Communication Association.
 
-\bibitem[Sunstein, 2017]{Sunstein2017}
-Sunstein, C.~R. (2017).
-\newblock {\em \#Republic: Divided Democracy in the Age of Social Media}.
+\bibitem[Sheehan, 2023]{Sheehan2023}
+Sheehan, M. (2023).
+\newblock China's {AI} regulations and how they get made.
+\newblock {\em Horizons: Journal of International Relations and Sustainable
+  Development}, (24):108--125.
+
+\bibitem[Simon, 1996]{Simon1996}
+Simon, H.~A. (1996).
+\newblock Designing organizations for an information-rich world.
+\newblock {\em International Library of Critical Writings in Economics},
+  70:187--202.
+
+\bibitem[Sunstein, 2018]{Sunstein2018}
+Sunstein, C.~R. (2018).
+\newblock {\em Republic: Divided Democracy in the Age of Social Media}.
 \newblock Princeton University Press, Princeton, NJ.
 
 \bibitem[Tiwana et~al., 2010]{Tiwana2010}
@@ -190,11 +298,18 @@ Ulbricht, L. and Yeung, K. (2022).
   regulation of and through algorithms.
 \newblock {\em Regulation \& Governance}, 16(1):3--22.
 
-\bibitem[Webster, 2014]{Webster2014}
-Webster, J.~G. (2014).
+\bibitem[Wang et~al., 2024]{Wang2024TwitterAudit}
+Wang, S., Huang, S., Zhou, A., and Metaxa, D. (2024).
+\newblock Lower quantity, higher quality: Auditing news content and user
+  perceptions on {Twitter/X} algorithmic versus chronological timelines.
+\newblock {\em Proceedings of the ACM on Human-Computer Interaction},
+  8(CSCW2):1--25.
+
+\bibitem[Webster, 2016]{Webster2016}
+Webster, J.~G. (2016).
 \newblock {\em The Marketplace of Attention: How Audiences Take Shape in a
   Digital Age}.
-\newblock MIT Press, Cambridge, MA.
+\newblock MIT Press.
 
 \bibitem[Wu, 2017]{Wu2017}
 Wu, T. (2017).
@@ -202,81 +317,49 @@ Wu, T. (2017).
   Heads}.
 \newblock Vintage Books, New York.
 
+\bibitem[Xu, 2024]{Xu2024}
+Xu, J. (2024).
+\newblock Opening the `black box' of algorithms: Regulation of algorithms in
+  {China}.
+\newblock {\em Communication Research and Practice}, 10(3):288--296.
+
 \bibitem[Yeung, 2018]{Yeung2018}
 Yeung, K. (2018).
 \newblock Algorithmic regulation: A critical interrogation.
 \newblock {\em Regulation \& Governance}, 12(4):505--523.
 
-\bibitem[喻国明和杨雅, 2023]{YuGuoming2023}
-喻国明和杨雅 (2023).
-\newblock 算法即媒介：算法范式下传播逻辑的解构与重塑.
-\newblock {\em 新闻与传播研究}, (3):5--18.
-\newblock 算法传播理论.
+\bibitem[Yu and Sekiguchi, 2024]{Yu2024PlatformDependence}
+Yu, S. and Sekiguchi, T. (2024).
+\newblock Platform-dependent entrepreneurship: A systematic review.
+\newblock {\em Administrative Sciences}, 14(12):326.
 
-\bibitem[喻国明和滕文强, 2024]{YuGuoming2024}
-喻国明和滕文强 (2024).
-\newblock 生成式人工智能时代的算法治理：挑战与路径.
-\newblock {\em 编辑之友}, (1):5--12.
-
-\bibitem[师文和陈昌凤, 2023]{ShiWen2023}
-师文和陈昌凤 (2023).
+\bibitem[喻国明 and 刘彧晗, 2023]{YuGuoming2023}
+喻国明 and 刘彧晗 (2023).
 \newblock
-  平台算法的``主流化''偏向与``个性化''特质研究——基于计算实验的算法审计.
-\newblock {\em 新闻记者}, (5):14--28.
-\newblock 算法审计方法论与实证研究.
+  从信息竞争到认知竞争：策略性传播范式全新转型——基于元传播视角的研究.
+\newblock {\em 现代传播（中国传媒大学学报）}, 45(2):128--134.
 
-\bibitem[张志安和吴晔, 2024]{ZhangZhian2024}
-张志安和吴晔 (2024).
-\newblock 算法驱动的新闻生产：平台化转型与内容质量演变.
-\newblock {\em 新闻记者}, (2):3--16.
+\bibitem[喻国明 and 刘彧晗, 2024]{YuGuoming2024}
+喻国明 and 刘彧晗 (2024).
+\newblock
+  个性化推荐≠信息茧房：对算法与茧房效应的误读澄清.
+\newblock {\em 青年记者}, (7):5--10.
 
-\bibitem[张维迎和柯荣住, 2023]{ZhangWeiying2023}
-张维迎和柯荣住 (2023).
-\newblock 信息、信誉与数字平台治理.
-\newblock {\em 经济研究}, 58(5):4--20.
-\newblock 信息经济学视角的平台治理.
+\bibitem[师文 and 陈昌凤, 2023]{ShiWen2023}
+师文 and 陈昌凤 (2023).
+\newblock
+  平台算法的"主流化"偏向与"个性化"特质研究——基于计算实验的算法审计.
+\newblock {\em 新闻记者}, (11):14--28.
 
-\bibitem[彭兰, 2023]{PengLan2023}
-彭兰 (2023).
-\newblock 算法推荐与``信息茧房''：一个被夸大的议题？.
-\newblock {\em 新闻与传播研究}, (8):20--35.
-\newblock 信息茧房效应再评估.
+\bibitem[李三希 et~al., 2023]{LiSanxi2023}
+李三希, 张仲元, and 焦倩 (2023).
+\newblock
+  竞争会降低企业收集消费者信息并增加隐私保护投资吗？.
+\newblock {\em 管理世界}, (7):130--147.
 
-\bibitem[方兴东和严峰, 2023]{FangXingdong2023}
-方兴东和严峰 (2023).
-\newblock 算法推荐的社会风险与治理框架.
-\newblock {\em 新闻与传播研究}, (6):48--65.
-
-\bibitem[曹晋丹和陈昌凤, 2023]{CaoJindan2023}
-曹晋丹和陈昌凤 (2023).
-\newblock 算法透明性与用户信任：基于微博热搜的实证研究.
-\newblock {\em 国际新闻界}, (7):89--108.
-
-\bibitem[李三希和陈彦斌, 2023]{LiSanxi2023}
-李三希和陈彦斌 (2023).
-\newblock 平台开放、主体责任和协同治理.
-\newblock {\em 社会科学战线}, (4):56--68.
-
-\bibitem[王勇和李嫣然, 2023]{WangYong2023}
-王勇和李嫣然 (2023).
-\newblock 数字平台的算法权力与治理边界.
-\newblock {\em 中国工业经济}, (6):5--23.
-\newblock 平台算法权力分析.
-
-\bibitem[陈昌凤和师文, 2024]{ChenChangfeng2024}
-陈昌凤和师文 (2024).
-\newblock 算法推荐系统的价值偏向：基于新闻app的算法审计.
-\newblock {\em 新闻与传播研究}, (2):5--22.
-
-\bibitem[陈永伟, 2023]{ChenYongwei2023}
-陈永伟 (2023).
-\newblock 平台经济反垄断的理论逻辑与规制路径.
-\newblock {\em 中国工业经济}, (3):24--42.
-\newblock 平台反垄断治理.
-
-\bibitem[黄升民和刘珊, 2023]{HuangShengmin2023}
-黄升民和刘珊 (2023).
-\newblock 注意力稀缺与算法分配：数字时代的媒介经济学.
-\newblock {\em 现代传播}, (4):1--8.
+\bibitem[焦豪, 2023]{JiaoHao2023}
+焦豪 (2023).
+\newblock 数字平台生态观：数字经济时代的管理理论新视角.
+\newblock {\em 中国工业经济}, (7):135--154.
 
 \end{thebibliography}
